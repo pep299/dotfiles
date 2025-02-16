@@ -63,3 +63,7 @@ defaults write com.apple.symbolichotkeys "AppleSymbolicHotKeys" -dict-add 27 "<d
 defaults write com.apple.symbolichotkeys "AppleSymbolicHotKeys" -dict-add 64 "<dict><key>enabled</key><false/><key>value</key><dict><key>parameters</key><array><integer>65535</integer><integer>49</integer><integer>1048576</integer></array><key>type</key><string>standard</string></dict></dict>"
 ## Finderの検索ウインドウを表示を無効化
 defaults write com.apple.symbolichotkeys "AppleSymbolicHotKeys" -dict-add 65 "<dict><key>enabled</key><false/><key>value</key><dict><key>parameters</key><array><integer>65535</integer><integer>49</integer><integer>1572864</integer></array><key>type</key><string>standard</string></dict></dict>"
+
+# Viewable on any display
+defaults write com.apple.spaces "app-bindings" -dict-add "dev.warp.warp-stable" "AllSpaces"
+
