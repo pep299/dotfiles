@@ -5,6 +5,7 @@
     - `xcode-select --install`
 1. brewをインストール  
     - https://brew.sh/ja/
+1. `export PATH="/opt/homebrew/bin:$PATH"` を実行してパスを通す
 1. [./brew/install_brew.sh](./brew/install_brew.sh) をコピペして実行
 1. [./before.sh](./before.sh) をコピペして実行
 1. gitのセットアップを適宜行い、当リポジトリをクローンする
