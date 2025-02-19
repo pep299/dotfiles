@@ -4,8 +4,17 @@ ln -s $PWD/zsh/.zshrc $HOME
 
 
 # config
+## karabiner
 mkdir -p $HOME/.config/karabiner
 ln -s $PWD/karabiner/karabiner.json $HOME/.config/karabiner
+
+## git
+mkdir -p $HOME/.config/git
+ln -s $PWD/git/ignore $HOME/.config/git
+
+## mise
+mkdir -p $HOME/.config/mise
+ln -s $PWD/mise/config.toml $HOME/.config/mise
 
 
 # gnu command

@@ -1,4 +1,6 @@
-export PATH="/opt/homebrew/bin:$PATH"
+# mise
+eval "$(mise activate zsh)"
+
 
 # jq
 function jdf() {

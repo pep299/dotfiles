@@ -1,0 +1,2 @@
+[env]
+MISE_DEFAULT_CONFIG_FILENAME = ".mise.local.toml"
