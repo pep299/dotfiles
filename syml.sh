@@ -16,6 +16,12 @@ ln -s $PWD/git/ignore $HOME/.config/git
 mkdir -p $HOME/.config/mise
 ln -s $PWD/mise/config.toml $HOME/.config/mise
 
+## colima
+mkdir -p $HOME/.colima/default
+ln -s $PWD/colima/colima.yaml $HOME/.colima/default
+mkdir -p $HOME/.docker
+ln -s $PWD/colima/config.json $HOME/.docker
+
 
 # gnu command
 mkdir -p $HOME/gnubin
