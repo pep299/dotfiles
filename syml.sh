@@ -22,6 +22,10 @@ ln -s $PWD/colima/colima.yaml $HOME/.colima/default
 mkdir -p $HOME/.docker
 ln -s $PWD/colima/config.json $HOME/.docker
 
+## vscode
+mkdir -p $HOME/.vscode/extensions
+ln -s $PWD/vscode/extensions.json $HOME/.vscode/extensions
+ln -s $PWD/vscode/settings.json $HOME/Library/Application\ Support/Code/User
 
 # gnu command
 mkdir -p $HOME/gnubin

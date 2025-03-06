@@ -1,0 +1,4 @@
+{
+    "extensions.allowed": "*",
+    "files.autoSave": "afterDelay"
+}
