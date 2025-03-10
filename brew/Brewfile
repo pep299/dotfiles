@@ -17,6 +17,7 @@ brew "jq"
 brew "make"
 brew "mas"
 brew "mise"
+brew "ripgrep"
 
 cask "aws-vault"
 cask "discord"

@@ -84,4 +84,4 @@ alias -g lb='$(git branch --sort=-committerdate | fzf --preview "git log -1 --pr
 alias -g lr='$(git branch -r --sort=-committerdate | fzf --preview "git log -1 --pretty=%C(auto) %h %s --color=always {}" --preview-window down:40%:wrap --height 40% --reverse | sed "s/remotes\/[^\/]*\///" | sed "s/origin\///")'
 
 ## register github ssh key
-alias rg='pbpaste | ssh-add -'
+alias rgsk='pbpaste | ssh-add -'
