@@ -13,6 +13,11 @@ function ud() {
   gdate --date "@$(pbpaste)" -u
 }
 
+## timestamp to date
+function t() {
+  pbpaste | xargs -I{} bash -c 'TS={}; echo "Timestamp: $TS"; echo "UTC: $(gdate -u -d @$TS "+%Y-%m-%d %H:%M:%S")"; echo "JST: $(TZ="Asia/Tokyo" gdate -d @$TS "+%Y-%m-%d %H:%M:%S")"'
+}
+
 
 # fzf
 ## ghq
