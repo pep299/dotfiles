@@ -28,6 +28,11 @@ mkdir -p $HOME/.vscode/extensions
 ln -sf $PWD/vscode/extensions.json $HOME/.vscode/extensions
 ln -sf $PWD/vscode/settings.json $HOME/Library/Application\ Support/Code/User
 
+## cursor
+mkdir -p $HOME/.cursor/extensions
+ln -sf $PWD/cursor/extensions.json $HOME/.cursor/extensions
+ln -sf $PWD/cursor/settings.json $HOME/Library/Application\ Support/Cursor/User
+
 
 # gnu command
 mkdir -p $HOME/gnubin
